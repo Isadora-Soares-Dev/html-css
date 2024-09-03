@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav{
+    background-color: gray;
+    padding: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover{
+    color: rgb(106, 26, 181);
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#assuntos{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+}
+
+article{
+    background-color:gainsboro;
+    padding: 5px;
+}
+
+article > aside{
+    background-color: rgb(155, 153, 153);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+}
