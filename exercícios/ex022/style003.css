@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bloco{
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    background-image: url('imagens/wallpaper003.jpg');
+}
+
+#q1{
+    background-position: left top;
+}
+
+#q2{
+    background-position: left center;
+}
+
+#q3{
+    background-position: right bottom;
+}
+
+#q4{
+    background-position: center center;
+}
