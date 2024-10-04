@@ -10,6 +10,9 @@
 #conteudo{
     position: absolute;
     height: 200px;
-    width: 400px;
+    width: 300px;
     background-color: yellow;
+
+    left: 100px;
+    top: 200px;
 }
