@@ -55,6 +55,11 @@ section{
     padding-left: 30px;
     font-size: 3vw;
 }
+
+section > p{
+    padding-bottom: 2em;
+}
+
 .normal{
     background-color: white;
     color: black;
@@ -62,13 +67,27 @@ section{
 
 .imagem{
     background-color: blueviolet;
-    color: black;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.675);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem >p{
     padding: 5px;
     display: inline-block;
-    background-color: rgb(0, 0,0, 0.253);
+    background-color: rgba(0, 0, 0, 0.545);
+    text-shadow: 1px 1px 0px black;
+}
+
+#img001{
+    background-image: url('imagens/joaninha.jpg');
+    background-position: center center;
+}
+
+#img002{
+    background-image: url('imagens/livro.jpg');
+    background-position: right center;
 }
 
 
