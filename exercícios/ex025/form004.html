@@ -8,16 +8,23 @@
 <body>
     <h1>Exemplo de Formulário</h1>
 
-    <form action="#" method="post">
-        <p>
-            <label for="iemail">E-mail</label>
-            <input type="email" name="email" id="iemail" required>
-        </p>
-
-        <p>
-            <label for="itell">Telefone</label>
-            <input type="tel" name="telefone" id="itell" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" required>
-        </p>
+    <form action="#" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <label for="itell">Telefone</label>
+                <input type="tel" name="telefone" id="itell" autocomplete="tel" placeholder="(xx)xxxx-xxxx" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+            </p>
+        </fieldset>
 
         <p>
             <input type="submit" value="Enviar">
