@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+
+            /* Declarações Gerais*/
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h1{
+            color: white;
+            text-shadow: 2px 2px 0px #1526a7;
+            padding: 10px;
+        }
+
+        /* Declarções Retrato */
+
+        @media screen and (orientation: portrait){
+            body{
+                background-image: url('../mq003/imagens/img-retrato.jpg');
+                background-position: left bottom;
+            }
+        }
+
+        /* Declarações Paisagem */
+        @media screen and (orientation: landscape) {
+            body{
+                background-image: url('../mq003/imagens/pexels-greenwish-_-137929759-13883889.jpg');
+                background-position: center center;
+            }
+        }
+    </style>
+<body>
+    <h1>Mude a Orientação do seu Dispositivo</h1>
+</body>
+</html>
