@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* Dispositivos Deitados */
+
+body{
+    background-image: url('../imagens/pexels-greenwish-_-137929759-13883889.jpg');
+    background-position: left bottom;
+}
