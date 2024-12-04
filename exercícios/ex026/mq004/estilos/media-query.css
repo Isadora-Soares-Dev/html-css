@@ -1,3 +1,40 @@
 @charset "UTF-8";
 
 /* Todas as demais mídias */
+
+@media print{ /*Impressora*/
+
+}
+
+@media screen and (min-width:767px) and (max-width: 992px){ /*Tablet*/
+    body{
+        background-color: red;
+    }
+
+    #tablet{
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width: 1200px){ /*Desktop*/
+    body{
+        background-color: yellow;
+    }
+
+    #desktop{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) { /*Telas Grandes*/
+    body{
+        background-color: green;
+    }
+
+    
+#tv{
+    display: block;
+}
+}
+
+

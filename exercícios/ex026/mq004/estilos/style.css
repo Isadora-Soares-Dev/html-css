@@ -15,10 +15,11 @@ body, html{
 }
 
 body{
-    background-image: url('../imagens/celular-background.jpg');
+    background-color: purple;
+    /* background-image: url('../imagens/celular-background.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 main{
