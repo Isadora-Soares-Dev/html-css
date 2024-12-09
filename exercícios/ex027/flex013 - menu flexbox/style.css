@@ -18,14 +18,47 @@ header{
     background-color: blueviolet;
     color: white;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1{
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
 header > nav{
     border: 1px dotted black;
+}
+
+header > nav > ul > li{
+    list-style-type: none;
+
+    display: flex;
+}
+
+
+header > nav > ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(53, 5, 98);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header > nav > ul > li > a:hover{
+    background-color: rgb(28, 3, 51);
 }
 
 main{
