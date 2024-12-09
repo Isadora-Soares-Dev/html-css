@@ -26,12 +26,12 @@ header{
 }
 
 header > h1{
-    border: 1px dotted black;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.475);
     flex: 0 0 200px;
 }
 
-header > nav{
-    border: 1px dotted black;
+header > span{
+    cursor: pointer;
 }
 
 header > nav > ul > li{
@@ -39,7 +39,6 @@ header > nav > ul > li{
 
     display: flex;
 }
-
 
 header > nav > ul{
     display: flex;
@@ -68,3 +67,20 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.536);
 }
+
+/* Responsividade */
+
+@media screen and (max-width: 580px){
+    header, header > nav > ul{
+        flex-flow: column nowrap;
+    }
+
+    header > h1{
+        flex-basis: 50px;
+    }
+
+    header > nav > ul > li > a{
+        width: 60vw;
+    }
+}
+
